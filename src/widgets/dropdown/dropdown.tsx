@@ -30,17 +30,17 @@ export const Dropdown: React.FC<
           size="lg"
           className="justify-between items-center"
         >
-          <SelectInput/>
+          <SelectInput />
           <SelectIcon as={ChevronDownIcon} />
         </SelectTrigger>
-        <SelectPortal >
+        <SelectPortal>
           <SelectBackdrop />
-          <SelectContent >
-            <SelectDragIndicatorWrapper >
+          <SelectContent>
+            <SelectDragIndicatorWrapper>
               <SelectDragIndicator />
             </SelectDragIndicatorWrapper>
             {items.map((item, index) => (
-              <SelectItem label={item.label} value={item.value} key={index}/>
+              <SelectItem label={item.label} value={item.value} key={index} />
             ))}
           </SelectContent>
         </SelectPortal>
