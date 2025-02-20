@@ -1,6 +1,6 @@
 # Welcome to Movies-App
 
-This is a cross-platform mobile app built with Expo with Gluestack UI.
+This is a cross-platform mobile app built with Expo and Gluestack UI.
 
 ## Get started
 1. Install dependencies
